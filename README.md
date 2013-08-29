@@ -4,7 +4,7 @@ Hybrid applications with Phonegap
 (excerpt)
 ---------
 
-     Delivering content to end mobile users can be very challenging for 
+Delivering content to end mobile users can be very challenging for 
 application design architects. Presentation covers pros and cons between 
 having pure native mobile application and web-based application. Showcase 
 will be to present "third way", having hybrid application solution, 
