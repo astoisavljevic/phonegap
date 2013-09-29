@@ -4,8 +4,8 @@
 */
 
 * {
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 /* 
@@ -15,156 +15,178 @@
 */
 
 html {
-	background: url('../img/bg.jpg') #fff;
+    background: url('../img/bg.jpg') #fff;
 }
 
-
 body {
-	min-height: 600px;
-	padding: 100px 0 50px;
-	height: 100%;
-	font-family: 'Ubuntu', sans-serif; 
-	font-size: 32px;
+    min-height: 600px;
+    padding: 100px 0 50px;
+    height: 100%;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 32px;
 }
 
 a, a:visited {
-	text-decoration: none;
-	outline: none;
-	color: #54A6DE;	
+    text-decoration: none;
+    outline: none;
+    color: #54A6DE;
 }
 
 a:hover {
-	text-decoration: underline;
+    text-decoration: underline;
 }
 
-section, 
+section,
 footer {
-	display: block;
+    display: block;
 }
 
-.arrow{
-	width:32px;
-	height:54px;
-	background:url('../img/arrows.png') no-repeat;
-	position:fixed;
-	top:50%;
-	margin-top:-27px;
-	cursor:pointer;
-	text-indent:-9999px;
-	overflow:hidden;
-	opacity:0.8;
-	border:none !important;
-	text-decoration:none !important;
-	
-	-moz-transition:0.2s opacity;
-	-webkit-transition:0.2s opacity;
-	transition:0.2s opacity;
+.arrow {
+    width: 32px;
+    height: 54px;
+    background: url('../img/arrows.png') no-repeat;
+    position: fixed;
+    top: 50%;
+    margin-top: -27px;
+    cursor: pointer;
+    text-indent: -9999px;
+    overflow: hidden;
+    opacity: 0.8;
+    border: none !important;
+    text-decoration: none !important;
+
+    -moz-transition: 0.2s opacity;
+    -webkit-transition: 0.2s opacity;
+    transition: 0.2s opacity;
 }
 
 .arrow:hover {
-	opacity:1;
+    opacity: 1;
 }
 
 #arrowLeft {
-	left:45px;
+    left: 45px;
 }
 
 #arrowRight {
-	right:45px;
-	background-position:top right;
+    right: 45px;
+    background-position: top right;
 }
 
 .clearfix {
-     clear: both;
+    clear: both;
 }
 
 /* Hide the arrows if impress is not supported */
 
 #impress.impress-not-supported + .arrow,
-#impress.impress-not-supported + .arrow + .arrow{
-	display:none;
+#impress.impress-not-supported + .arrow + .arrow {
+    display: none;
 }
 
 #impress:not(.impress-not-supported) .step {
-	opacity:0.4;
+    opacity: 0.4;
 }
 
 #impress .step {
-	width: 800px;
-	height: 600px;
-	position: relative;
-	margin: 0 auto;
-	
-	-moz-transition:1s opacity;
-	-webkit-transition:1s opacity;
-	transition:1s opacity;
+    width: 800px;
+    height: 600px;
+    position: relative;
+    margin: 0 auto;
+
+    -moz-transition: 1s opacity;
+    -webkit-transition: 1s opacity;
+    transition: 1s opacity;
 }
 
 #impress .step.active {
-	opacity:1;
+    opacity: 1;
 }
 
 #impress h2 {
-	font: normal 44px/1.5 'Ubuntu', sans-serif;
-	color: #444648;
-	z-index: 10;
+    font: normal 44px/1.5 'Ubuntu', sans-serif;
+    color: #444648;
+    z-index: 10;
 }
 
 #impress h4 {
-	font: normal 28px/1.5 'Ubuntu', sans-serif;
-	color: #444648;
-	z-index: 10;
+    font: normal 28px/1.5 'Ubuntu', sans-serif;
+    color: #444648;
+    z-index: 10;
 }
 
 # impress #intro {
-	width: 500px;
+    width: 500px;
 }
 
 #intro h2 {
-	display: block;
-	text-align: center;
-	width: 100%;
+    display: block;
+    text-align: center;
+    width: 100%;
 }
 
 #intro h4 {
-	display: block;
-	text-align: center;
-	width: 100%;
+    display: block;
+    text-align: center;
+    width: 100%;
 }
 
 /** 
  * slide: about author
  */
 .slide-content-wrapper {
-     padding-top: 15px;
+    padding-top: 15px;
 }
 
 #universityDays {
-     width: 49%; 
-     min-height: 200px;
-     float:left;
+    width: 49%;
+    min-height: 200px;
+    float: left;
+}
+
+#universityDays .image {
+    background: url("../img/university.jpg") 0 0 no-repeat;
+    min-height: 200px;
+}
+
+#universityDays .title {
+    padding-top: 10px;
+    text-align: center;
 }
 
 #win32Days {
-     width: 49%;
-     min-height: 200px;
-     float: right;
+    width: 49%;
+    min-height: 200px;
+    float: right;
 }
 
+#win32Days .image {
+    background: url("../img/win32.png") 0 0 no-repeat;
+    min-height: 200px;
+}
+
+#win32Days .title {
+    padding-top: 10px;
+    text-align: center;
+}
+
+
 #levi9Days {
-     width: 100%;
-     min-height: 200px;
+    width: 100%;
+    min-height: 200px;
 }
 
 #hobby {
-     width: 49%; 
-     min-height: 200px;
-     float:left;
+    width: 49%;
+    min-height: 200px;
+    float: left;
 }
 
 #contactDetails {
-     width: 49%;
-     min-height: 200px;
-     float: right;
+    width: 49%;
+    min-height: 200px;
+    float: right;
+    font-size: 1em;
+    color: #003bb3;
 }
 
