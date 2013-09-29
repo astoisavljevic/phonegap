@@ -74,6 +74,10 @@ footer {
 	background-position:top right;
 }
 
+.clearfix {
+     clear: both;
+}
+
 /* Hide the arrows if impress is not supported */
 
 #impress.impress-not-supported + .arrow,
@@ -86,10 +90,10 @@ footer {
 }
 
 #impress .step {
-	width:700px;
+	width: 800px;
 	height: 600px;
-	position:relative;
-	margin:0 auto;
+	position: relative;
+	margin: 0 auto;
 	
 	-moz-transition:1s opacity;
 	-webkit-transition:1s opacity;
@@ -127,3 +131,40 @@ footer {
 	text-align: center;
 	width: 100%;
 }
+
+/** 
+ * slide: about author
+ */
+.slide-content-wrapper {
+     padding-top: 15px;
+}
+
+#universityDays {
+     width: 49%; 
+     min-height: 200px;
+     float:left;
+}
+
+#win32Days {
+     width: 49%;
+     min-height: 200px;
+     float: right;
+}
+
+#levi9Days {
+     width: 100%;
+     min-height: 200px;
+}
+
+#hobby {
+     width: 49%; 
+     min-height: 200px;
+     float:left;
+}
+
+#contactDetails {
+     width: 49%;
+     min-height: 200px;
+     float: right;
+}
+
