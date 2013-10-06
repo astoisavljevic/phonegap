@@ -222,3 +222,6 @@ footer {
  * slide: agenda
  */
 
+#agenda ul > li {
+    padding-top: 15px;
+}
