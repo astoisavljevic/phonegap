@@ -8,74 +8,126 @@
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css" />
     <link rel="stylesheet" href="css/style.css"/>
+
 </head>
 <body class="impress-not-supported">
 <div id="impress">
-    <div id="intro" class="step" data-x="0" data-y="0">
+    <!-- ### Presentation Title ### -->
+    <div id="presentationTitle" class="step" data-x="0" data-y="0">
         <h2>Hybrid applications with PhoneGap</h2>
         <h4>Aleksandar Stoisavljevi&#263;</h4>
     </div>
 
-    <div id="slide1" class="step" data-x="1100" data-y="1200" data-scale="1.8" data-rotate="190">
-        <h2>About author</h2>
 
+    <!-- ### About Author 1 ### -->
+    <div id="aboutAuthor1" class="step" data-x="1000" data-y="1200" data-scale="1.8" data-rotate="190">
+        <h2>About author</h2>
         <div class="slide-content-wrapper">
             <div id="universityDays">
-                <div class="image"></div>
-                <div class="title">University Days</div>
+                <img src="img/university.jpg" />
+                <div class="title">University</div>
             </div>
             <div id="win32Days">
-                <div class="image"></div>
+                <img src="img/win32.png" />
                 <div class="title">Win32 App.</div>
-            </div>
-            <div class="clearfix"></div>
-            <div id="levi9Days">
-                <p>Tech. team lead</p>
-            </div>
-            <div id="hobby">
-                <p>
-                    Table Tennis
-                </p>
-            </div>
-            <div id="contactDetails">
-                <p>
-                    <i class="icon-google-plus"></i>&nbsp;staleks@gmail.com
-                    <br/>
-                    <i class="icon-linkedin"></i>&nbsp;astoisavljevic
-                    <br/>
-                    <i class="icon-twitter"></i>&nbsp;staleksit
-                </p>
             </div>
             <div class="clearfix"></div>
         </div>
     </div>
 
-    <div id="connect" class="step" data-x="-300" data-y="600" data-scale="0.2" data-rotate="270">
-        <h2>Connect &amp; Share</h2>
+    <!-- ### About Author 2 ### -->
+    <div id="aboutAuthor2" class="step" data-x="4000" data-y="1200" data-scale="1.8" data-rotate="190">
+        <h2>About author</h2>
+        <div id="levi9Days">
+            <div id="logoHolder">
+                <div id="currentJobLogoHolder">
+                    <img id="levi9Logo" src="img/levi9-logo.png" />
+                </div>
+                <div id="contractsLogos">
+                    <img src="img/TMG.jpg" />
+                    <img src="img/jobs-republic.gif" />
+                    <img src="img/one2many.png" />
+                    <img src="img/superdirect-logo.png" />
+                </div>
+                <div class="clearfix"></div>
+            </div>
 
-        <p>Real-life sharing is nuanced and rich. Galaxy Nexus makes sharing with mobile devices just as easy at it is
-            in person. </p>
+            <div id="currentJob">
+                <p>
+                    <b>Technical Team Lead - Java department</b>
+                </p>
+                <p>
+                    <ul>
+                        <li>Wat U Zegt - local news</li>
+                        <li>JobsRepublic - news, job market and social platform</li>
+                        <li>One2Many - Cellbroadcast Early Warning System</li>
+                        <li>TMG - RelatiePlanet - largest and best dating site</li>
+                        <li>SuperDirect.com - New concept of delivering groceries</li>
+                    </ul>
+                </p>
+            </div>
+        </div>
     </div>
 
-    <div id="upload" class="step" data-x="-200" data-y="1500" data-rotate="180">
-        <h2>Instant Upload</h2>
-
-        <p>Your photos upload themselves with Instant Upload, which makes it much easier to share them with family and
-            friends.</p>
+    <!-- ### About Author 3 ### -->
+    <div id="aboutAuthor3" class="step" data-x="7000" data-y="1200" data-scale="1.8" data-rotate="190">
+        <h2>About author</h2>
+        <div id="hobby">
+            <img src="img/tabletennis.jpg" />
+            <div class="title">Hobby -> Table Tennis</div>
+        </div>
+        <div id="contactDetails">
+            <p>
+                <i class="icon-google-plus"></i>&nbsp;staleks@gmail.com
+                <br/>
+                <i class="icon-linkedin"></i>&nbsp;astoisavljevic
+                <br/>
+                <i class="icon-twitter"></i>&nbsp;staleksit
+            </p>
+        </div>
+        <div id="contactDetailsSpeaker">
+            <img src="img/astoisavljevic.jpg" />
+        </div>
+        <div class="clearfix"></div>
     </div>
 
-    <div id="music" class="step" data-x="-1200" data-y="1000" data-scale="0.8" data-rotate="270">
-        <h2>Jam on with Google Music</h2>
+    <!-- ### Agenda ### -->
+    <div id="agenda" class="step" data-x="-300" data-y="600" data-scale="0.2" data-rotate="270">
+        <h2>Agenda</h2>
 
-        <p>Google Music makes discovery, purchase, and listening effortless and fun. Store your entire collection for
-            free, and stream your music to your Galaxy Nexus, computer, or other Android devices.</p>
+        <p>
+            What you are going to hear today in intensive 45min presentation
+        </p>
     </div>
+
+    <!-- ### A little "look over shoulder" in past ### -->
+    <div id="bitOfHistory" class="step" data-x="-100" data-y="2300" data-rotate="180">
+        <h2>A bit of history</h2>
+
+        <p>
+            We have:
+            <ul>
+                <li>web applications</li>
+                <li>native applications</li>
+            </ul>
+            What about if we combine these two "worlds"?
+        </p>
+    </div>
+
+    <!-- ### Step-a-side native apps with usage of web resources ### -->
+    <div id="nativeApplications" class="step" data-x="-1200" data-y="1000" data-scale="0.8" data-rotate="270">
+        <h2>Native applications</h2>
+
+        <p>Story about what is good in native applications and what is drawback</p>
+    </div>
+
+
 
 </div>
-<a id="arrowLeft" class="arrow">&lt;</a>
-<a id="arrowRight" class="arrow">&gt;</a>
-<script src="js/jquery-2.0.3.min.js"></script>
-<script src="js/impress.js"></script>
-<script src="js/main.js"></script>
+    <a id="arrowLeft" class="arrow">&lt;</a>
+    <a id="arrowRight" class="arrow">&gt;</a>
+    <script src="js/jquery-2.0.3.min.js"></script>
+    <script src="js/impress.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
