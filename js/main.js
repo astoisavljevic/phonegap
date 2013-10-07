@@ -28,6 +28,8 @@ $(function(){
                     $("#contactDetailsSpeaker").fadeIn(100);
                 });
             });
+        } else if (currentSlide === 'bitOfHistory') {
+            $("#bitOfHistory p").fadeIn(3000);
         };
     });
 

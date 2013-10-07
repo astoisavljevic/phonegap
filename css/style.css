@@ -225,3 +225,13 @@ footer {
 #agenda ul > li {
     padding-top: 15px;
 }
+
+/**
+ * slide: a bit of history
+ */
+
+
+#bitOfHistory p {
+    line-height: 32px;
+    display: none;
+}

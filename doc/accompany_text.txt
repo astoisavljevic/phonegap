@@ -1,0 +1,51 @@
+1. A BIT of history
+
+    Delivering content to mobile users always was/is a challenge for
+application architects.
+Some of the things that you have to think about are:
+    - how to efficently update content
+    - usage of familiar technologies, etc.
+
+Let we do a small time travel in past. Our destination: moment when
+smart-phones hit the market.
+At that moment applications could be grouped in two main categories:
+    - pure web-based applications - all of their content was coming
+from a server, and as opposite to this approach
+    - pure mobile applications, where all of their content resides
+on a mobile device.
+
+Each of these approaches has it's own advantages and disadvantages.
+
+Mobile applications
+-------------------
+
+Pros:
+    - Fast (this comes from the fact that all of the needed resources
+are already on the device)
+    - Easy for user to find (go to market, download and have it on phone
+in applications)
+
+Cons:
+    - Hard to update - each fix or update is subject of review hence
+time to "hit" end user can be long
+
+Pure web applications
+---------------------
+
+Pros:
+    - Easy to update - all of the content is changed on server thus
+immediately available to end user to use
+
+Cons:
+    - Slow - network is crucial resource here (speed, quality, coverage, ...)
+    - Hard to find - user has to remember URL, dealing with bookmarks, etc.
+
+Therefore combination of these two "worlds" seems logical.
+
+
+[SWITCH SLIDE]
+
+
+
+
+
