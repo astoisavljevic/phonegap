@@ -45,6 +45,51 @@ Therefore combination of these two "worlds" seems logical.
 
 [SWITCH SLIDE]
 
+2. Hybrid Mobile Application Development
+
+    Previously we saw best features of mobile and web-based applications.
+We could define "hybrid" applications as application that can be partitioned
+so that part runs on mobile device and part is delivered by server.
+
+<image that shows hybrid application combine resources both from device and web>
+
+What makes hybrid application successful?
+
+- User must not be affected with transition between resources from device and
+web.
+- User interface should look like a mobile app, both mobile and web-based sides.
+
+
+Let's concentrate now on this part of "hybrid" definition:
+"application that can be partitioned so that part runs on mobile device and part is delivered by server."
+Since you are here and not on presentation of "high performance PHP" I will assume that
+you have some experience on mobile development. So if you are not at level of "Hello World"
+application development, you must use at least some colaboration between your code and
+some 3rd party service. Nowadays, this can be done in various ways: SOAP, XML, JSON, ...
+
+Currently I'm working on some project that we provide REST API with endpoints that consumes/produces
+JSON. And also we have coleagues in Holland, iOS developers and Android developers.
+As a result we have web application, and one thin client application for iOS and one for Android.
+
+Ok, now here comes the "punch line". One day when we sail in "shallow waters of project maintanance",
+product owners decide to extend business and to support Windows Phone. And suddenly we are in problem.
+First you need to find programmer that can acomplish the job. Even he is the best programmer in the
+world, you will have to support him for some time, explaining each endpoint, explain different
+combination of request parameters, etc. It will cost you, beside nerves which you will lose anyway,
+time. Time.equals(Money) = TRUE.
+And suddenly management decides to go with version for BlackBerry :)
+
+Now you see the point. Mobile devices segmentation is "nightmare" for the programmers.
+
+<image that show the room with lot of mobile devices on single table>
+
+Can we have single source code base?
+
+[SWITCH SLIDE]
+
+3. Why not using something that we already know?
+
+[SWITCH SLIDE]
 
 
 
