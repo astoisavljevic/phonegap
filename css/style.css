@@ -141,6 +141,14 @@ footer {
     padding-top: 10px;
 }
 
+.slide-content-wrapper ul {
+    list-style: none;
+}
+
+.slide-content-wrapper ul > li {
+    line-height: 32px;
+}
+
 /** 
  * slide: aboutAuthor1
  */
@@ -234,4 +242,29 @@ footer {
 #bitOfHistory p {
     line-height: 32px;
     display: none;
+}
+
+/**
+ * slide: whatWeKnow
+ */
+.what-we-know-container {
+    text-align: center;
+}
+
+.what-we-know-container-image {
+    text-align: center;
+    padding-top: 20px;
+    display: none;
+}
+
+.what-we-know-container-image img {
+    width: 600px;
+}
+
+
+/**
+ * slide: thank You
+ */
+.thank-you-wrapper {
+    text-align: center;
 }

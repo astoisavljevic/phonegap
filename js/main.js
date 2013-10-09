@@ -30,7 +30,11 @@ $(function(){
             });
         } else if (currentSlide === 'bitOfHistory') {
             $("#bitOfHistory p").fadeIn(3000);
-        };
+        }
+    });
+
+    $("#btnHTML5").click(function() {
+        $(".what-we-know-container-image").fadeIn(3000);
     });
 
 });

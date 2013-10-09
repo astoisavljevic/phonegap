@@ -39,7 +39,11 @@ immediately available to end user to use
 Cons:
     - Slow - network is crucial resource here (speed, quality, coverage, ...)
     - Hard to find - user has to remember URL, dealing with bookmarks, etc.
-
+<
+some url to show:
+# LinkedIn Generic WebApplication: https://touch.www.linkedin.com/login.html
+# Wikipedia: http://en.m.wikipedia.org/wiki/Main_Page
+>
 Therefore combination of these two "worlds" seems logical.
 
 
@@ -87,9 +91,100 @@ Can we have single source code base?
 
 [SWITCH SLIDE]
 
-3. Why not using something that we already know?
+3. Mobile Application Development Tools
+
+Average users like mobile applications. Saturday night, sitting and watching TV, you take your phone/tablet
+turn on network and browse through stores.
+
+I've retrieved some numbers:
+    Apple iOS Market ~ 1.000.000 apps,
+    Android Play Store ~ 800.000 apps,
+
+In order to build these applications developers has following tools:
+1. Android - Java - Eclipse, Android Studio, Netbeans, etc.
+2. iOS - Objective C - X-Code
+3. Windows Phone - C# - Visual Studio
+
+And what is most problematic is those tools are INCOMPATIBLE.
+This leads to developer "LOCK IN". This is good for Google, Microsoft, Apple, ... but
+really bad for developers.
+
+Explain term "LOCK IN" - example of locked SIM card for mobile phones.
+
+So let's "fight one battle at a time". So let's get rid of different code: Java, Objective-C, C#, C++
+
+What else can we use? HTML5, CSS3 and JS saves the day! It provides same great user experience, but it's open
+standard, not owned by any company.
 
 [SWITCH SLIDE]
+
+4. What is PhoneGap
+
+
+[SWITCH SLIDE]
+
+5. 1st break - DEMO #1 -
+
+    DEMO #1 (basic info, gps, ...)
+
+[SWITCH SLIDE]
+
+6. Anyone smell problems?
+
+    - Advanced stuff. We talked about using services from web, now it is time to show this!
+    <image how phoneGap wraps HTML5, CSS and JS>
+
+    - Talk about problem of Same Origin Policy
+    <image about SameOriginPolicy>
+
+[SWITCH SLIDE]
+
+
+7. Single Page Applications
+
+    Small side talk for those that wasn't on Milos Jovanovic presentation about SPA and BackboneJS.
+
+[SWITCH SLIDE]
+
+
+8. 2nd break - DEMO #2 -
+
+
+[SWITCH SLIDE]
+
+
+9. Advanced features of PhoneGap
+
+    Talk about PhoneGap plugins
+
+
+[SWITCH SLIDE]
+
+
+10. PhoneGap Build
+
+    Remember audience about problem with complexity of programming languages.
+Now we still have problems that we must have actual development tool to "wrap things up",
+put nice ribbon and deliver to markets.
+In order to remove last "LOCK IN" developer can use PhoneGapBuild.
+
+Some words on this.
+
+[SWITCH SLIDE]
+
+
+11. Questions & Answers
+
+    Before last slide: Give personal opinion on this. (remember Facebook and HTML5 vs. native)
+
+[SWITCH SLIDE]
+
+12. Resources
+
+
+[SWITCH SLIDE]
+
+12. Thank You
 
 
 
