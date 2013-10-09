@@ -3,7 +3,7 @@
     Delivering content to mobile users always was/is a challenge for
 application architects.
 Some of the things that you have to think about are:
-    - how to efficently update content
+    - how to efficiently update content
     - usage of familiar technologies, etc.
 
 Let we do a small time travel in past. Our destination: moment when
@@ -59,10 +59,11 @@ so that part runs on mobile device and part is delivered by server.
 
 What makes hybrid application successful?
 
-- User must not be affected with transition between resources from device and
-web.
-- User interface should look like a mobile app, both mobile and web-based sides.
+1. User must not be affected with transition between resources from device and web.
 
+2. User interface should look like a mobile app, both mobile and web-based sides.
+Challenge to provide almost same user experience over different devices. Try to imagine
+situation where user is using one device on his/her work and home using different platform.
 
 Let's concentrate now on this part of "hybrid" definition:
 "application that can be partitioned so that part runs on mobile device and part is delivered by server."
@@ -72,18 +73,18 @@ application development, you must use at least some colaboration between your co
 some 3rd party service. Nowadays, this can be done in various ways: SOAP, XML, JSON, ...
 
 Currently I'm working on some project that we provide REST API with endpoints that consumes/produces
-JSON. And also we have coleagues in Holland, iOS developers and Android developers.
+JSON. And also we have colleagues in Holland, iOS developers and Android developers.
 As a result we have web application, and one thin client application for iOS and one for Android.
 
 Ok, now here comes the "punch line". One day when we sail in "shallow waters of project maintanance",
 product owners decide to extend business and to support Windows Phone. And suddenly we are in problem.
-First you need to find programmer that can acomplish the job. Even he is the best programmer in the
+First you need to find programmer that can accomplish the job. Even he is the best programmer in the
 world, you will have to support him for some time, explaining each endpoint, explain different
 combination of request parameters, etc. It will cost you, beside nerves which you will lose anyway,
 time. Time.equals(Money) = TRUE.
 And suddenly management decides to go with version for BlackBerry :)
 
-Now you see the point. Mobile devices segmentation is "nightmare" for the programmers.
+Now you see the point. Mobile devices OS fragmentation is "nightmare" for the programmers.
 
 <image that show the room with lot of mobile devices on single table>
 
@@ -113,7 +114,10 @@ Explain term "LOCK IN" - example of locked SIM card for mobile phones.
 
 So let's "fight one battle at a time". So let's get rid of different code: Java, Objective-C, C#, C++
 
-What else can we use? HTML5, CSS3 and JS saves the day! It provides same great user experience, but it's open
+- What else can we use?
+- What is common? - Browser as common platform (usually WebKit, of course except Microsoft - IE7 based)
+- All the mobile platforms support embedding browsers in applications - WebViews
+-> HTML5, CSS3 and JS saves the day! It provides same great user experience, but it's open
 standard, not owned by any company.
 
 [SWITCH SLIDE]
