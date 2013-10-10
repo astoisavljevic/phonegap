@@ -139,6 +139,7 @@ footer {
  */
 .slide-content-wrapper {
     padding-top: 10px;
+    line-height: 32px;
 }
 
 .slide-content-wrapper ul {
@@ -261,6 +262,16 @@ footer {
     width: 600px;
 }
 
+/**
+ * slide: phoneGap
+ */
+#phoneGapDefinition {
+    display: none;
+}
+
+#phoneGapArchitecture {
+    display: none;
+}
 
 /**
  * slide: thank You

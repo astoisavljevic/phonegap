@@ -115,7 +115,7 @@ Explain term "LOCK IN" - example of locked SIM card for mobile phones.
 So let's "fight one battle at a time". So let's get rid of different code: Java, Objective-C, C#, C++
 
 - What else can we use?
-- What is common? - Browser as common platform (usually WebKit, of course except Microsoft - IE7 based)
+- What is common for all mobile platforms? - Browser as common platform (usually WebKit, of course except Microsoft - IE7 based)
 - All the mobile platforms support embedding browsers in applications - WebViews
 -> HTML5, CSS3 and JS saves the day! It provides same great user experience, but it's open
 standard, not owned by any company.
@@ -124,6 +124,10 @@ standard, not owned by any company.
 
 4. What is PhoneGap
 
+    PhoneGap is an open-source mobile framework that enables authoring of native mobile applications using
+well-known HTML, CSS, and JS technologies and same time providing access to native hardware features of the
+mobile device through a common platform-independent JavaScript API (camera, GPS, etc).
+Finally it packages your app so it can be published in the various app stores and markets.
 
 [SWITCH SLIDE]
 

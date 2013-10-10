@@ -30,11 +30,24 @@ $(function(){
             });
         } else if (currentSlide === 'bitOfHistory') {
             $("#bitOfHistory p").fadeIn(3000);
-        }
+        } else if (currentSlide === 'phoneGap') {
+            $("#phoneGapDefinition").fadeIn(2000);
+        };
     });
 
     $("#btnHTML5").click(function() {
         $(".what-we-know-container-image").fadeIn(3000);
     });
+
+    $("#phoneGapDefinition").click(function() {
+        $("#phoneGapDefinition").hide();
+        $("#phoneGapArchitecture").show();
+    });
+
+    $("#phoneGapArchitecture").click(function() {
+        $("#phoneGapArchitecture").hide();
+        $("#phoneGapDefinition").show();
+    });
+
 
 });
