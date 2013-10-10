@@ -129,6 +129,17 @@ well-known HTML, CSS, and JS technologies and same time providing access to nati
 mobile device through a common platform-independent JavaScript API (camera, GPS, etc).
 Finally it packages your app so it can be published in the various app stores and markets.
 
+[PRESS paragraph and switch to PhoneGap Architecture]
+
+How everything started? In 2008. Nitobi .com has initial idea to simplify cross-platform development.
+Firstly they made framework and right away started to work on supporting platforms. As a result first
+supporting platforms were: Android and BlackBerry.
+Their effort couldn't pass un-noticed and in 2011 Adobe bought Nitobi. At that moment they published code
+under Apache "umbrella" with the codename Apache Cordova. Phonegap still exists as brand name, and they work
+simultaniously on both codes but the fact is that now they are paid for they work.
+For a developers nothing has changed. For you to understand the difference is that you can think about Apache Cordova
+as engine that drives PhoneGap :)
+
 [SWITCH SLIDE]
 
 5. 1st break - DEMO #1 -
