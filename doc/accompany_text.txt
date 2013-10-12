@@ -144,7 +144,21 @@ as engine that drives PhoneGap :)
 
 5. 1st break - DEMO #1 -
 
-    DEMO #1 (basic info, gps, ...)
+    DEMO #1 (basic info, contacts, ...)
+
+    Now let's take a minute to pray to "Gods of DEMO's" :) Funny video: http://www.youtube.com/watch?v=IW7Rqwwth84
+Ok, I didn't want you to go out from this presentation and not bringing something with you. So first I thought,
+let's buy a bottle of rakia to each of you :)
+Kidding, of course. But not completely. I will now pass you a page with printed bar code, so you can download
+APK file or other (). Unfortunately if you are using iPhone, I do not have keys for Apple store, that
+developers licence, so tough luck for you today :(
+
+First demo is just simple getting some information about your phone: device name, platform, etc.
+
+Put some pictures on slide.
+
+
+
 
 [SWITCH SLIDE]
 
