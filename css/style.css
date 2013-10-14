@@ -281,9 +281,12 @@ footer {
     height: 300px;
 }
 
-#demo1ImagesContainer img {
-    height: 100%;
+.demo1-images-item {
+    width: 200px;
+    float: left;
+    padding-left: 10px;
 }
+
 
 
 /**

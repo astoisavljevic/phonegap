@@ -155,6 +155,8 @@ developers licence, so tough luck for you today :(
 
 First demo is just simple getting some information about your phone: device name, platform, etc.
 
+<click on 5. Time for 1st break to open pictures of application runing on different platforms>
+
 
 [SWITCH SLIDE]
 
@@ -165,6 +167,17 @@ First demo is just simple getting some information about your phone: device name
 
     - Talk about problem of Same Origin Policy
     <image about SameOriginPolicy>
+
+    For those of you who have worked with Ajax-based applications, you know that a web application hosted at
+“www.example.com” cannot make Ajax calls to a web service hosted at “www.some-other-domain.com.”
+ This is called a same origin policy. http://en.wikipedia.org/wiki/Same_origin_policy.
+
+On the other hand same is not applicable for a PhoneGap application. A PhoneGap application bundles the required HTML,
+JavaScript, and CSS files, and PhoneGap applications do not have domains like “example.com.”
+This allows PhoneGap to be a platform for the easy development of mashups, which can freely make Ajax calls to
+various other sites.
+Think about your PhoneGap application integrating Facebook, Twitter, and Flickr all into
+one mashup, with just a few lines of JavaScript code.
 
 [SWITCH SLIDE]
 
