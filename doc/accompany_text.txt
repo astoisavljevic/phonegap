@@ -179,6 +179,13 @@ various other sites.
 Think about your PhoneGap application integrating Facebook, Twitter, and Flickr all into
 one mashup, with just a few lines of JavaScript code.
 
+The same origin policy does not apply to the file:// protocol.
+http://en.wikipedia.org/wiki/Same_origin_policy#Corner_cases_and_exceptions
+
+PhoneGap apps imbed a web view which loads it local html files using
+the file:// protocol. Thus you can do cross domain XHR from PhoneGap
+apps.
+
 [SWITCH SLIDE]
 
 
