@@ -274,6 +274,17 @@ footer {
 }
 
 /**
+ * slide: sameOriginPolicy
+ */
+#moreComplexHybrid {
+    display: none;
+}
+
+#sameOriginPolicyExplained {
+    display: none;
+}
+
+/**
  * slide: thank You
  */
 .thank-you-wrapper {

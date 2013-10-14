@@ -32,6 +32,8 @@ $(function(){
             $("#bitOfHistory p").fadeIn(3000);
         } else if (currentSlide === 'phoneGap') {
             $("#phoneGapDefinition").fadeIn(2000);
+        } else if (currentSlide === 'sameOriginPolicy') {
+            $("#moreComplexHybrid").fadeIn(2000);
         };
     });
 
@@ -48,6 +50,17 @@ $(function(){
         $("#phoneGapArchitecture").hide();
         $("#phoneGapDefinition").show();
     });
+
+    $("#moreComplexHybrid").click(function() {
+        $("#moreComplexHybrid").hide();
+        $("#sameOriginPolicyExplained").show();
+    });
+
+    $("#sameOriginPolicyExplained").click(function() {
+        $("#sameOriginPolicyExplained").hide();
+        $("#moreComplexHybrid").show();
+    });
+
 
 
 });
