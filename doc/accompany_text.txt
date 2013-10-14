@@ -155,10 +155,6 @@ developers licence, so tough luck for you today :(
 
 First demo is just simple getting some information about your phone: device name, platform, etc.
 
-Put some pictures on slide.
-
-
-
 
 [SWITCH SLIDE]
 
@@ -201,7 +197,7 @@ Now we still have problems that we must have actual development tool to "wrap th
 put nice ribbon and deliver to markets.
 In order to remove last "LOCK IN" developer can use PhoneGapBuild.
 
-Some words on this.
+Show the PhoneGap Build process (use PhoneGapDeviceInfo as example.)
 
 [SWITCH SLIDE]
 

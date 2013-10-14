@@ -61,6 +61,10 @@ $(function(){
         $("#moreComplexHybrid").show();
     });
 
+    $("#demo1 > h2").click(function() {
+        $("#demo1ImagesContainer").show();
+    });
+
 
 
 });

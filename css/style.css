@@ -274,6 +274,19 @@ footer {
 }
 
 /**
+ * slide: demo1
+ */
+#demo1ImagesContainer {
+    display: none;
+    height: 300px;
+}
+
+#demo1ImagesContainer img {
+    height: 100%;
+}
+
+
+/**
  * slide: sameOriginPolicy
  */
 #moreComplexHybrid {
