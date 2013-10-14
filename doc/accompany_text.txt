@@ -191,12 +191,21 @@ apps.
 
 7. Single Page Applications
 
-    Small side talk for those that wasn't on Milos Jovanovic presentation about SPA and BackboneJS.
+    As you may noticed, we deliberately set this presentation after previous presentation about Single
+Page Applications. There is a good reason for that. And I will show some stuff of SPA concepts in
+following demo. So just be patient ...
+
+Why do we want to write single page apps? The main reason is that they allow us to offer a
+more-native-app-like experience to the user.
+Single page apps are distinguished by their ability to redraw any part of the UI without requiring
+a server roundtrip to retrieve HTML. This is achieved by separating the data from the presentation
+of data by having a model layer that handles data and a view layer that reads from the models.
+
 
 [SWITCH SLIDE]
 
 
-8. 2nd break - DEMO #2 -
+8. 2nd break - DEMO #2 - Simple Time Tracker
 
 
 [SWITCH SLIDE]
@@ -225,6 +234,23 @@ Show the PhoneGap Build process (use PhoneGapDeviceInfo as example.)
 11. Questions & Answers
 
     Before last slide: Give personal opinion on this. (remember Facebook and HTML5 vs. native)
+I will steal you one/two more minutes (to prevent you asking me too many questions) :)
+Usually I get questions: How this works in practice? Can you really do some real, production ready
+stuf with HTML5, CSS3, JS and finally PhoneGap?
+I have to say YES!
+
+But did we have problems? YES!
+
+And as usual, you don't see the problems until the moment that you "deep dived" :)
+
+Let me just mention some of the problems:
+- fixed position elements (iScroll)
+- webkit browsers that is not 100% CSS3 compatible
+- different platforms with/without support for H/W acceleration (drop shadows, linear/radial gradients, ...) we have
+to trade off a lot
+- windows phone, IE-7 based, no media queries, no CSS3 - not our target platform
+- draining the battery
+- some of the features must be re-thinked/rejected due to technology limits (number of simultaneous connections by mobile browsers)
 
 [SWITCH SLIDE]
 
