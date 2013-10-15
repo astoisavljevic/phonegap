@@ -213,7 +213,23 @@ of data by having a model layer that handles data and a view layer that reads fr
 
 9. Advanced features of PhoneGap
 
-    Talk about PhoneGap plugins
+    Here I must admit that at the moment when we used PhoneGap for project, we didn't used any of advanced stuff.
+Why is that? We were un-experienced and thrilled with HTML5, CSS3 and JS. At that moment we thought that
+we could accomplish everything with given technology. How wrong we were! But about problems I will talk bit later.
+What we wanted to avoid developing anything native. We didn't have any iOS programmer nor we had experience with
+Android platform. We strictly followed that: "Keep it simple" principle.
+
+Later, while I was investigating other projects, I saw that some of problems can be solved by combination of
+hybrid and native. But for this you must think "out of the box" and to involve platform specific developers.
+
+Extension of PhoneGap hybrid applications can be achieved with usage of Plugins.
+
+A PhoneGap plugin bridges a bit of functionality between the WebView powering a hybrid application and the
+native platform the PhoneGap application is running on.
+Plugins are composed of a single JavaScript interface used across all platforms, and native implementations
+following platform-specific Plugin interfaces that the JavaScript calls into.
+All of the core PhoneGap APIs are implemented using this architecture.
+
 
 
 [SWITCH SLIDE]
