@@ -305,6 +305,22 @@ footer {
  */
 
 /**
+ * slide: PhoneGap Plugin
+ */
+#phonegapPluginText {
+    display: none;
+}
+
+#phonegapPluginShowcase {
+    display: none;
+}
+
+#phonegapPluginShowcase img {
+    height: 600px;
+}
+
+
+/**
  * slide: thank You
  */
 .thank-you-wrapper {

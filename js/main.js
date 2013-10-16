@@ -34,6 +34,8 @@ $(function(){
             $("#phoneGapDefinition").fadeIn(2000);
         } else if (currentSlide === 'sameOriginPolicy') {
             $("#moreComplexHybrid").fadeIn(2000);
+        } else if (currentSlide === 'advancedPhoneGap') {
+            $("#phonegapPluginText").show();
         };
     });
 
@@ -65,6 +67,15 @@ $(function(){
         $("#demo1ImagesContainer").show();
     });
 
+    $("#phonegapPluginText").click(function() {
+        $("#phonegapPluginText").hide();
+        $("#phonegapPluginShowcase").show();
+    });
+
+    $("#phonegapPluginShowcase").click(function() {
+        $("#phonegapPluginShowcase").hide();
+        $("#phonegapPluginText").show();
+    });
 
 
 });
